@@ -1,6 +1,6 @@
 body{
   width:80 %;
-  background-color:pink;
+  background-color:#faf0f8;
 }
 .flex-boxx{
   display:flex ;
@@ -9,8 +9,13 @@ body{
   justify-content: space-around;
 
 }
+.container h1{
+  font-weight: 500;
+  font-size: 45px;
+  color:Black;
+}
 .container{
-  font-family: 'times new roman',serif;
+  font-family: 'times new roman',sans-serif;
   background-color: white;
   justify-content: center;
   width:50%;
@@ -18,7 +23,7 @@ body{
   position: relative;
   left:25%;
   display: flex;
-  border: 1px black solid;
+  border: 0px black solid;
   flex-direction: column;
   padding-left:10px;
   text-align: left;
@@ -28,18 +33,17 @@ body{
 }
 .container p{
   margin-bottom:15px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 200;
 }
 input[type=text]{
-  width: 50%;
+  width: 40%;
   height:30px;
-  te
   padding: 5px 0px;
   margin-bottom:15px;
   box-sizing: border-box;
   border: none;
-  font-size: 15px;
+  font-size: 16px;
   border-bottom: 1px solid black;
 }
 input:focus::placeholder{
@@ -54,4 +58,22 @@ input[type=text]:focus{
 .container h1{
   text-transform:uppercase;
   margin-bottom: 2px;
+}
+
+a:hover{
+  opacity:0.7;
+}
+
+.Next-button{
+  display:block;
+  width: 10%;
+  height:5%;
+  border-radius:10px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 20px;
+  left:65%;
+  background-color: #660066;
+  color:#fff;
+  font-size:18px;
 }
